@@ -1,0 +1,96 @@
+.inputLogin{
+  position: relative;
+  display: flex;
+  width: 315px;
+  height: 168.2;
+  top: 200px;
+  left: 125px;
+}
+
+.email{
+  position: absolute;
+  font-size: 14pt;
+}
+
+.senha{
+  position: absolute;
+  font-size: 14pt;
+  top: 90px;
+}
+
+.inputEmail{
+  position: absolute;
+  border-radius: 12px;
+  width: 313.97px;
+  height: 35px;
+  padding-left: 5px;
+  border: 2px solid #C4C4C4;
+  top: 50px;
+}
+
+.inputSenha{
+  position: absolute;
+  display: flex;
+  border-radius: 12px;
+  width: 313.97px;
+  height: 35px;
+  padding-left: 5px;
+  top: 140px;
+  border: 2px solid #C4C4C4;
+}
+
+.buttonLogin{
+  position: absolute;
+  background: #656ED3;
+  color: #FFFFFF;
+  width: 346px;
+  height: 34px;
+  top: 410px;
+  left: 125px;
+  border-radius: 50px;
+  border: none;
+}
+
+.container {
+  display: flex;
+  width: 50%; /* Largura da área onde a imagem será posicionada */
+  height: 600px; /* Altura da área onde a imagem será posicionada */
+}
+
+.bag {
+  position: absolute;
+  width: 250px;
+  top: 5%; 
+  left: 587.97px; 
+}
+
+.note {
+  position: absolute;
+  width: 478px;
+  top: 43%; 
+  left: 850px; 
+}
+
+.folha{
+  position: absolute;
+  width: 300px;
+  bottom: 0; 
+  left: 450px; 
+}
+
+@media screen and (max-width: 900px) {
+  
+.container{
+  height: 500px;
+}
+
+.bag{
+  left: 210px;
+  width: 120px;
+}
+
+.note{
+    left: 250px;
+    width: 110px;
+}
+}
